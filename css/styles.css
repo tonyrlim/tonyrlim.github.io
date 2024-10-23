@@ -1,90 +1,151 @@
 nav {
-    background-color: #fbf3e5;
+  background-color: #fbf3e5;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
+  background-color: #fbf3e5;
 }
 
 .paragraph {
-    line-height: 2.5rem;
+  line-height: 2.5rem;
 }
 
 .navbar-text {
-    color: #8B0D11;
-    font-weight: 600;
+  color: #8b0d11;
+  font-weight: 600;
 }
 
 .title-text {
-    color: #8B0D11;
-    font-weight: 600;
-    letter-spacing: 0.2rem;
+  color: #8b0d11;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+.video-text {
+  color: #8b0d11;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  line-height: 2.5rem;
+}
+
+.subtitle {
+  color: #6a6a6a;
+}
+
+.tile {
+  background-color: #fcb507;
+  text-align: center;
+  vertical-align: middle;
+  align-content: center;
+  color: #8b0d11;
+  text-decoration: none;
+}
+
+.centered {
+  justify-content: center;
 }
 
 .cta {
-    background-color: #FCB507;
-    border-radius: 9px;
+  background-color: #fcb507;
+  border-radius: 9px;
 }
 
 .hero {
-    background-color: #fbf3e5;
+  background-color: #fbf3e5;
 }
 
 .wide {
-    width: 120%;
+  width: 120%;
 }
 
 .section-mission {
-    background-color: #8B0D11;
-    color: #fbf3e5;
+  background-color: #8b0d11;
+  color: #fbf3e5;
+}
+
+.mission-title {
+  color: #fcb507;
+}
+
+.btn-custom {
+  background-color: #fcb507;
+  border-color: #fcb507;
+  border-radius: 9px;
+  color: #8b0d11;
+  width: 100%;
 }
 
 .smaller {
-    font-size: smaller;
-    padding: 1rem;
+  font-size: smaller;
+  padding: 1rem;
 }
 
 .img-sm {
-    max-width: 50%; /* Adjust the max-width as per your requirement */
-    height: auto; /* Maintain aspect ratio */
+  max-width: 50%; /* Adjust the max-width as per your requirement */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .section-vision {
-    background-color: #FCB507;
+  background-color: #fcb507;
 }
 
 .accordion-button::after {
-    background-image: initial;
+  background-image: initial;
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: initial;
+  background-image: initial;
 }
 
 .table-data {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 ion-icon {
-    font-size: 64px;
-    color: #8B0D11;
+  font-size: 64px;
+  color: #8b0d11;
 }
 
 @media (max-width: 768px) {
-    .help-card {
-        margin: 0 auto;
-        /* Center the card horizontally */
-        text-align: center;
-        /* Center text inside card */
-    }
+  .help-card {
+    margin: 0 auto;
+    /* Center the card horizontally */
+    text-align: center;
+    /* Center text inside card */
+  }
 
-    .card .ion-icon {
-        margin: 0 auto;
-        /* Adjust vertical alignment of Ionicons */
-    }
+  .card .ion-icon {
+    margin: 0 auto;
+    /* Adjust vertical alignment of Ionicons */
+  }
+}
+
+.card {
+  background-color: #fbf3e5;
 }
 
 .social {
-    font-size: 32px;
-    color: white;
+  font-size: 32px;
+  color: white;
+}
+
+.connect {
+  font-size: 12rem;
+  color: white;
+}
+
+.connect-img {
+  width: 13.5rem;
+  height: 13.2rem;
+}
+
+.connect-img-sm {
+  width: 5.5rem;
+  height: 5.2rem;
+}
+
+.verse {
+  padding-right: 3rem;
+  padding-left: 7rem;
 }
